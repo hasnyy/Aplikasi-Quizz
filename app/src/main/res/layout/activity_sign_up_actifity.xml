@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signUpActifity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF8F2"
+        >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama Anda"
+        android:background="@color/white"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="45dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Alamat Anda"
+        android:background="@color/white"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="15dp"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="21dp"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perempuan"
+                    android:textSize="24dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginHorizontal="20dp"
+
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Laki-laki"
+                    android:textSize="24dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginHorizontal="20dp"
+
+                    />
+            </RadioGroup>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Telepon"
+            android:background="@color/white"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="14dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:background="@color/white"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="14dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:background="@color/white"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="14dp"
+            android:inputType="textPassword"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/lapisan"
+                android:layout_marginHorizontal="52dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sign Up"
+                android:id="@+id/signup2"
+                android:background="@drawable/rounded"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:layout_marginHorizontal="60dp"
+                android:elevation="200dp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/lapisan"
+                android:layout_marginHorizontal="52dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Back To Login"
+                android:id="@+id/loginkembali"
+                android:background="@drawable/rounded"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:layout_marginHorizontal="60dp"
+                android:elevation="200dp"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
