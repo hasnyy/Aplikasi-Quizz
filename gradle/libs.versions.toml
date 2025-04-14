@@ -32,6 +32,7 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+bottom-material = { group= 'com.google.android.material:material:1.11.0-alpha01', name="bottom-material", version.ref="material" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

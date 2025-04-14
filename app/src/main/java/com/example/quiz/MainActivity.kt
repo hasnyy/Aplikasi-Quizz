@@ -18,5 +18,10 @@ class MainActivity : AppCompatActivity() {
             val pindah = Intent(this@MainActivity, signUpActifity::class.java)
             startActivity(pindah)
         }
+        val buttonlogin = findViewById<Button>(R.id.login)
+        buttonlogin.setOnClickListener{
+            val pindah = Intent(this@MainActivity, ini_home::class.java)
+            startActivity(pindah)
+        }
     }
 }

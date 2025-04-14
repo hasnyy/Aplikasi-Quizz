@@ -8,4 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="background">#FFEFF2</color>
+    <color name="backmenuhome">#E8E8E8</color>
+    <color name="latar">#FFF8F2</color>
+    <color name="backgroundutama">#FFF8F2</color>
+    <color name="pilihan">#F1B6C5</color>
+    <color name="jawaban">#ffff</color>
 </resources>

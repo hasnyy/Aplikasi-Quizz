@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="soal"
+    android:orientation="vertical"
+    android:background="#FFF8F2">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/panah1"
+                android:src="@drawable/panah"
+                android:layout_marginTop="9sp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Html"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="150sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15 Question"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="143sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!--Card Soal + Jawaban-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="350sp"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="5dp"
+        android:layout_marginHorizontal="20sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Question:1/15"
+                android:textSize="10sp"
+                android:textColor="#0F469A"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="20sp"
+                android:layout_marginTop="10sp"
+                android:layout_gravity="left"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quit"
+                android:textColor="#A02525"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="29sp"
+                android:layout_marginTop="10sp"
+                android:layout_gravity="right"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="20sp"
+            android:layout_marginTop="37sp"
+            android:layout_height="wrap_content"
+            android:text="Who is making the web standards?"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
+
+        <!--Pilgan 1-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20sp"
+            android:layout_marginTop="70dp"
+            app:cardElevation="15sp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jwb1"
+                android:text="The World Wide Web Consortium"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:layout_marginLeft="7sp"
+                android:paddingVertical="13dp"
+                android:textStyle="bold"/>
+        </androidx.cardview.widget.CardView>
+
+        <!--Pilgan 2-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20sp"
+            android:layout_marginTop="130dp"
+            app:cardElevation="15sp">
+            <TextView
+                android:id="@+id/jwb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Microsoft"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:layout_marginLeft="7sp"
+                android:paddingVertical="13dp"
+                android:textStyle="bold"/>
+        </androidx.cardview.widget.CardView>
+
+        <!--Pilgan 3-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20sp"
+            android:layout_marginTop="190dp"
+            app:cardElevation="15sp">
+            <TextView
+                android:id="@+id/jwb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mozilla"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:layout_marginLeft="7sp"
+                android:paddingVertical="13dp"
+                android:textStyle="bold"/>
+        </androidx.cardview.widget.CardView>
+
+        <!--Pilgan 4-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20sp"
+            android:layout_marginTop="250dp"
+            app:cardElevation="15sp">
+            <TextView
+                android:id="@+id/jwb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Google"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:layout_marginLeft="7sp"
+                android:paddingVertical="13dp"
+                android:textStyle="bold"/>
+        </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="See Result"
+                android:textSize="15sp"
+                android:textColor="#0F469A"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="315sp"
+                />
+            <ImageView
+                android:layout_width="40sp"
+                android:layout_height="16sp"
+                android:src="@drawable/tombolpilihan"
+                android:layout_marginTop="319sp"
+                android:layout_marginStart="80sp"/>
+
+
+    </androidx.cardview.widget.CardView>
+    <!--Button-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0sp"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginEnd="18sp">
+        <Button
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:text="Previous"
+            android:id="@+id/previous"
+            android:backgroundTint="#F1B6C5"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="10sp"
+            android:elevation="200dp"/>
+        <Button
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:id="@+id/next"
+            android:text="Next"
+            android:backgroundTint="#F1B6C5"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginTop="10sp"
+            android:elevation="200dp"/>
+    </LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/buttonhome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottommenu"
+        android:background="@color/white"
+        app:itemIconTint="#0118D8"
+        app:itemTextColor="#0118D8"/>
+
+</LinearLayout>
+
+
+
